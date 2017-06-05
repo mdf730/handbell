@@ -55,14 +55,23 @@ Bells call us to prayer, ring at times of great joy, but also comfort us at time
 		year = "Year"
 		dorm = "Dorm"
 
+	# Music section
+	[params.music]
+		title = "Recorded CDs"
 
+	[params.music.modal]
+		title = "Title"
+		year  = "Year"
 
-    # Portfolio modals
-	[params.portfolio.modal]
-        client = "Client"
-        date = "Date"
-        category = "Category"
-        buttonText = "Close"
+	# Schedule section
+	[params.schedule]
+		title = "Fall 2017 Schedule"
+
+	[params.schedule.modal]
+		title = "Title"
+		date = "Date"
+		time = "Time"
+		location = "Location"
 
     # Aside section
 	[params.aside]
@@ -79,8 +88,3 @@ Bells call us to prayer, ring at times of great joy, but also comfort us at time
 		phone = "123-456-6789" # Karen's phone number
 		email = "handbell@nd.edu"
 
-	# Google Maps section
-	 [params.location]
-	 	latitude  = "34.007850"
-	 	longitude = "-118.499305"
-	 	maps_api_key = ""
