@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body id="page-top">
+        {{ if or .Site.Params.navigation.links.about .Site.Params.navigation.links.members .Site.Params.navigation.links.music .Site.Params.navigation.links.videos .Site.Params.navigation.links.schedule .Site.Params.navigation.links.contact }}
+            {{ partial "nav.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.hero }}
+            {{ partial "hero.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.about }}
+            {{ partial "about.html" . }}
+        {{ end }}
+
+        {{ if .Site.Data.members }}
+            {{ partial "members.html" . }}
+        {{ end }}
+
+        {{ if .Site.Data.music }}
+            {{ partial "music.html" . }}
+        {{ end }}
+
+        {{ if .Site.Data.videos }}
+            {{ partial "videos.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.aside }}
+            {{ partial "aside.html" . }}
+        {{ end }}
+
+        {{ if .Site.Data.schedule }}
+            {{ partial "schedule.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.contact }}
+            {{ partial "contact.html" . }}
+        {{ end }}
+
+        {{ if .Site.Data.members }}
+            {{ partial "membermodals.html" . }}
+        {{ end }}
+
+                {{ if .Site.Data.music }}
+            {{ partial "musicmodals.html" . }}
+        {{ end }}
+
+                {{ if .Site.Data.videos }}
+            {{ partial "videomodals.html" . }}
+        {{ end }}
+
+                {{ if .Site.Data.schedule }}
+            {{ partial "schedulemodals.html" . }}
+        {{ end }}
+
+        {{ partial "js.html" . }}
+
+        {{ template "_internal/google_analytics.html" . }}
+    </body>
+</html>

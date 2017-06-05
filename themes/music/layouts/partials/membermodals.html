@@ -1,0 +1,55 @@
+{{ "<!-- Member Modals -->" | safeHTML }}
+{{ range .Site.Data.members }}
+<div class="portfolio-modal modal fade" id="portfolioModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        {{ with .name }}
+                            <h2>{{ . }}</h2>
+                        {{ end }}
+
+                        {{ if and .name .description }}
+                            <hr class="star-primary">
+                        {{ end }}
+                        
+                        {{ with .description }}
+                            <p>{{ . | markdownify }}</p>
+                        {{ end }}
+
+                        {{ if or .major .year .dorm }}
+                            <ul class="list-inline item-details">
+                                {{ if .major }}
+                                    <li>{{ with $.Site.Params.members.modal.major }}{{.}}: {{ end }}
+                                        <strong>{{ .major }}</strong>
+                                    </li>
+                                {{ end }}
+                                {{ if .year }}
+                                    <li>{{ with $.Site.Params.members.modal.year }}{{.}}: {{ end }}
+                                        <strong><a href="#">{{ .year }}</a></strong>
+                                    </li>
+                                {{ end }}
+                                {{ if .dorm }}
+                                    <li>{{ with $.Site.Params.members.modal.dorm }}{{.}}: {{ end }}
+                                        <strong><a href="#">{{ .dorm }}</a></strong>
+                                    </li>
+                                {{ end }}
+                            </ul>
+                        {{ end }}
+                        {{ with $.Site.Params.members.modal.buttonText }}
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-years"></i>{{.}}</button>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

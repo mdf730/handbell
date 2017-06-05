@@ -1,0 +1,86 @@
+baseurl = "http://127.0.0.1/"
+languageCode = "en-us"
+title = "Handbell Choir - Notre Dame"
+theme = "music"
+googleAnalytics = "UA-100397831-1"
+
+[params]
+
+	# metadata for search engines
+	name = "Notre Dame Handbell Choir"
+	description = "The Notre Dame Handbell Choir is composed of fifteen undergraduate and graduate students under the direction of Karen Schneider-Kirner."
+
+	# logo for browser tab
+	favicon = "favicon.ico"
+
+	# Navigation
+	[params.navigation]
+		brand = "Notre Dame Handbell Choir"
+
+		[params.navigation.links]
+			about     = "About"
+			members   = "Members"
+			music     = "Music"
+			videos	  = "Videos"
+			schedule  = "Schedule"
+			contact   = "Contact"
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Ring Down The Thunder"
+		subtitle   = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
+		#buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "ABOUT THE CHOIR"
+		description = '''Handbells were first purchased by Campus Ministry at the University of Notre Dame in 1988, with a small set of Schulmerich bells that have since expanded to cover more than five full octaves. Over the years, the use of the bells began simply at liturgy, with peals and free ringing of chords. They currently play not only solo repertoire, but also on the hymns and other service music used for masses. Bells are the oldest of all liturgical instruments, so it's important that we keep the tradition alive of involving bells and bell ringers in the liturgy. 
+The primary group of the Notre Dame Handbell Choir is comprised of approximately 15 undergraduate and graduate students. It's only necessary that interested ringers have a solid foundation in music and are fairly coordinated. Bells are heard at our Basilica of the Sacred Heart occasionally at Sunday night Vespers and most often with the Notre Dame Folk Choir for Sunday Basilica liturgies at 11:45 AM. They play for Advent Lessons and Carols, go on tours with the Celebration Choir, play for the annual Pop Farley Mass in Farley Hall Chapel, visit the Center for the Homeless annually, and play solo concerts occasionally at the Basilica of the Sacred Heart. They also record regularly and normally tour with the N.D. Celebration Choir. 
+Bells call us to prayer, ring at times of great joy, but also comfort us at times of sadness. They have an ethereal quality that cannot be matched by any other type of instrument. We hope that our bell choir will touch the hearts of all who hear us, bringing the faithful closer to God, and imparting a sense of the eternal in those seeking a deeper faith. '''
+		mission 	= "MISSION STATEMENT"
+		statement 	= '''Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.'''
+		#buttonText  = "Get started!"
+
+
+	# Member section
+	[params.members]
+		title = "2017 MEMBERS"
+
+	[params.members.modal]
+		name = "Name"
+		office = "Office"
+		major = "Major"
+		year = "Year"
+		dorm = "Dorm"
+
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "WINTER TOUR 2018 - DESTINATION TEXAS"
+
+	#	[params.aside.button]
+	#		text = "Download now"
+	#		link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+		phone = "123-456-6789" # Karen's phone number
+		email = "handbell@nd.edu"
+
+	# Google Maps section
+	 [params.location]
+	 	latitude  = "34.007850"
+	 	longitude = "-118.499305"
+	 	maps_api_key = ""
