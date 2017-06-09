@@ -28,12 +28,12 @@
             {{ partial "videos.html" . }}
         {{ end }}
 
-<!--        {{ if .Site.Params.aside }}
-            {{ partial "aside.html" . }}
-        {{ end }}
--->
         {{ if .Site.Data.schedule }}
             {{ partial "schedule.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.aside }}
+            {{ partial "aside.html" . }}
         {{ end }}
 
         {{ if .Site.Params.contact }}
@@ -44,15 +44,15 @@
             {{ partial "membermodals.html" . }}
         {{ end }}
 
-                {{ if .Site.Data.music }}
+        {{ if .Site.Data.music }}
             {{ partial "musicmodals.html" . }}
         {{ end }}
 
-                {{ if .Site.Data.videos }}
+        {{ if .Site.Data.videos }}
             {{ partial "videomodals.html" . }}
         {{ end }}
 
-                {{ if .Site.Data.schedule }}
+        {{ if .Site.Data.schedule }}
             {{ partial "schedulemodals.html" . }}
         {{ end }}
 

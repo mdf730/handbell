@@ -57,7 +57,7 @@ Bells call us to prayer, ring at times of great joy, but also comfort us at time
 
 	# Music section
 	[params.music]
-		title = "Recorded CDs"
+		title = "MUSIC"
 
 	[params.music.modal]
 		title = "Title"
@@ -75,16 +75,17 @@ Bells call us to prayer, ring at times of great joy, but also comfort us at time
 
     # Aside section
 	[params.aside]
-		headline = "WINTER TOUR 2018 - DESTINATION TEXAS"
+		headline = "Monthly choir newsletter!"
 
-	#	[params.aside.button]
-	#		text = "Download now"
-	#		link = "//github.com/digitalcraftsman/hugo-creative-theme"
+		[params.aside.button]
+			text = "Sign up!"
+			link = "mailto:karen.kirner@nd.edu?subject=Newsletter%20Signup&body=Hi!"
 
 	# Contact section
 	[params.contact]
 		headline = "Let's Get In Touch!"
-		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+		description = "Have questions? Want to purchase a CD? Just want to chat?"
 		phone = "123-456-6789" # Karen's phone number
 		email = "handbell@nd.edu"
+		# Facebook page link
 
