@@ -1,9 +1,16 @@
-<section class="no-padding" id="portfolio">
+<section class="no-padding" id="videos">
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                {{ with .Site.Params.videos.title }}<h2>{{ . }}</h2>{{ end }}
+            </div>
+        </div>
+    </aside>
     <div class="container-fluid">
         <div class="row no-gutter">
             {{ range .Site.Data.videos }}
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#portfolioModal{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal">
+                <div class="col-lg-3 col-sm-4">
+                    <a href="#video{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal">
                         <img src="img/videos/{{ .img }}" class="img-responsive" alt="">
                         {{ if and .year .title }}
                             <div class="portfolio-box-caption">

@@ -1,6 +1,6 @@
 {{ "<!-- Video Modals -->" | safeHTML }}
 {{ range .Site.Data.videos }}
-<div class="portfolio-modal modal fade" id="portfolioModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="video{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
@@ -22,7 +22,7 @@
 
                         <div class="video-container">
                             <video class="video-width" controls>
-                                <source src="img/videos/videos/{{ .vid }}" type="video/mp4">
+                                <source src="img/videos/videos/{{ .video }}" type="video/mp4">
                                 Your browser does not support HTML5 video.
                             </video>
                         </div>

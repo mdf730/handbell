@@ -1,8 +1,9 @@
-baseurl = "http://127.0.0.1/"
+baseurl = "https://mdf730.github.io/bellsite/"
 languageCode = "en-us"
 title = "Handbell Choir - Notre Dame"
 theme = "music"
 googleAnalytics = "UA-100397831-1"
+publishDir = "docs"
 
 [params]
 
@@ -62,6 +63,15 @@ Bells call us to prayer, ring at times of great joy, but also comfort us at time
 	[params.music.modal]
 		title = "Title"
 		year  = "Year"
+
+	# Video section
+	[params.videos]
+		title = "VIDEOS"
+
+	[params.videos.modal]
+		title = "Title"
+		year = "Year"
+		video = "Video"
 
 	# Schedule section
 	[params.schedule]
