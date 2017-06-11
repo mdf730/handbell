@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Handbell Choir - Notre Dame</title>
-    <link>http://127.0.0.1/</link>
+    <link>https://mdf730.github.io/bellsite/</link>
     <description>Recent content on Handbell Choir - Notre Dame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://127.0.0.1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mdf730.github.io/bellsite/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
