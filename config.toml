@@ -30,18 +30,18 @@ publishDir = "docs"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Ring Down The Thunder"
-		subtitle   = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
-		#buttonText = "Find out more"
+		subtitle   = "<b>/ `han(d)- bel /</b> | <em>noun.</em> | insert definition here "
+		buttonText = '''<i class="fa fa-envelope" aria-hidden="true"></i> | Subscribe'''
 
 
 	# About section
 	[params.about]
 		headline    = "ABOUT THE CHOIR"
 		description = '''Handbells were first purchased by Campus Ministry at the University of Notre Dame in 1988, with a small set of Schulmerich bells that have since expanded to cover more than five full octaves. Over the years, the use of the bells began simply at liturgy, with peals and free ringing of chords. They currently play not only solo repertoire, but also on the hymns and other service music used for masses. Bells are the oldest of all liturgical instruments, so it's important that we keep the tradition alive of involving bells and bell ringers in the liturgy. 
-The primary group of the Notre Dame Handbell Choir is comprised of approximately 15 undergraduate and graduate students. It's only necessary that interested ringers have a solid foundation in music and are fairly coordinated. Bells are heard at our Basilica of the Sacred Heart occasionally at Sunday night Vespers and most often with the Notre Dame Folk Choir for Sunday Basilica liturgies at 11:45 AM. They play for Advent Lessons and Carols, go on tours with the Celebration Choir, play for the annual Pop Farley Mass in Farley Hall Chapel, visit the Center for the Homeless annually, and play solo concerts occasionally at the Basilica of the Sacred Heart. They also record regularly and normally tour with the N.D. Celebration Choir. 
-Bells call us to prayer, ring at times of great joy, but also comfort us at times of sadness. They have an ethereal quality that cannot be matched by any other type of instrument. We hope that our bell choir will touch the hearts of all who hear us, bringing the faithful closer to God, and imparting a sense of the eternal in those seeking a deeper faith. '''
+<br><br>The primary group of the Notre Dame Handbell Choir is comprised of approximately 15 undergraduate and graduate students. It's only necessary that interested ringers have a solid foundation in music and are fairly coordinated. Bells are heard at our Basilica of the Sacred Heart occasionally at Sunday night Vespers and most often with the Notre Dame Folk Choir for Sunday Basilica liturgies at 11:45 AM. They play for Advent Lessons and Carols, go on tours with the Celebration Choir, play for the annual Pop Farley Mass in Farley Hall Chapel, visit the Center for the Homeless annually, and play solo concerts occasionally at the Basilica of the Sacred Heart. They also record regularly and normally tour with the Celebration Choir. 
+<br><br>Bells call us to prayer, ring at times of great joy, but also comfort us at times of sadness. They have an ethereal quality that cannot be matched by any other type of instrument. We hope that our bell choir will touch the hearts of all who hear us, bringing the faithful closer to God, and imparting a sense of the eternal in those seeking a deeper faith. '''
 		mission 	= "MISSION STATEMENT"
-		statement 	= '''Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.'''
+		statement 	= '''We come together from diverse backgrounds to utilize our talents, to enjoy fellowship with one another, and to build a community centered in our Christian faith. As a choir, we spread joy and peace through our music-making. We are unique, representing a different and wonderful type of music ministry. We develop our musical skills and ability to work with each other as team players. We hope to be a presence in the liturgical community on campus, to create a strong choir so that we can effectively minister to our ND family, and to inspire and enkindle spirituality in all who hear us. '''
 		#buttonText  = "Get started!"
 
 

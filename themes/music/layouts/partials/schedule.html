@@ -10,25 +10,29 @@
         <div class="row no-gutter">
             {{ range .Site.Data.schedule }}
                 <div class="col-lg-3 col-sm-4">
-                    <a href="#event{{ .modalID }}" class="schedule-box schedule-link" data-toggle="modal">
-                        <img src="img/schedule/{{ .img }}" class="img-responsive" alt="">
-                        {{ if and .date .title }}
-                            <div class="schedule-box-caption">
-                                <div class="schedule-box-caption-content">
-                                    {{ with .date }}
-                                        <div class="event-category text-faded">
-                                            {{ . }}
-                                        </div>
-                                    {{ end }}
-                                    {{ with .title }}
-                                        <div class="event-name">
-                                            {{ . }}
-                                        </div>
-                                    {{ end }}
+                    {{ if .title}}
+                        <a href="#event{{ .modalID }}" class="schedule-box schedule-link" data-toggle="modal" style="outline:none;">
+                            <img src="img/schedule/{{ .img }}" class="img-responsive" alt="">
+                            {{ if and .date .title }}
+                                <div class="schedule-box-caption">
+                                    <div class="schedule-box-caption-content">
+                                        {{ with .date }}
+                                            <div class="event-category text-faded">
+                                                {{ . }}
+                                            </div>
+                                        {{ end }}
+                                        {{ with .title }}
+                                            <div class="event-name">
+                                                {{ . }}
+                                            </div>
+                                        {{ end }}
+                                    </div>
                                 </div>
-                            </div>
-                        {{ end }}
-                    </a>
+                            {{ end }}
+                        </a>
+                    {{ else }}
+                        <img src="img/schedule/{{ .img }}" class="img-responsive" alt="">
+                    {{ end }}
                 </div>
             {{ end }}
         </div>

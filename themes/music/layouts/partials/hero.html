@@ -3,16 +3,16 @@
     <div class="header-content">
         <div class="header-content-inner">
             {{ with .Site.Params.hero.slogan }}
-                <h1>{{ . | markdownify  }}</h1>
+                <h1 class="strokeme">{{ . | markdownify  }}</h1>
             {{ end }}
             {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
-                <hr>
+                <p></p> 
             {{ end }}
             {{ with .Site.Params.hero.subtitle }}
-                <p>{{ . | markdownify }}</p>
+                <p class="stroke">{{ . | markdownify }}</p>
             {{ end }}
             {{ with .Site.Params.hero.buttonText }}
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
+                <a href="mailto:handbell@nd.edu" class="btn btn-primary btn-xl page-scroll">{{ . | markdownify }}</a>
             {{ end }}
         </div>
     </div>

@@ -7,7 +7,7 @@
                     <h2 class="section-heading">{{ . }}</h2>
                 {{ end }}
                 {{ if and .Site.Params.about.headline .Site.Params.about.description }}
-                    <hr class="light">
+                    <hr>
                 {{ end }}
                 {{ with .Site.Params.about.description }}
                     <p class="text-faded">{{ . | markdownify }}</p>
@@ -16,7 +16,7 @@
                     <h2 class="section-heading">{{ . }}</h2>
                 {{ end }}
                 {{ if and .Site.Params.about.mission .Site.Params.about.statement }}
-                    <hr class="light">
+                    <hr>
                 {{ end }}
                 {{ with .Site.Params.about.statement }}
                     <p class="text-faded">{{ . | markdownify }}</p>
