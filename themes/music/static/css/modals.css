@@ -16,12 +16,16 @@ body {
     margin: 0 auto;
 }
 
-.member-modal {
-    top: 20%;
+.member-modal .modal-content {
+    width: 70%;
+    margin: 15%;
+    background-color: rgba(255,255,255,.9);
+    position: center;
 }
 
-.portfolio-modal .modal-content {
 
+.portfolio-modal .modal-content {
+    position: left;
 }
 
 .portfolio-modal .modal-content h2 {
@@ -37,7 +41,7 @@ body {
     margin: 30px 0;
 }
 
-.portfolio-modal .close-modal {
+.member-modal .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -47,11 +51,11 @@ body {
     cursor: pointer;
 }
 
-.portfolio-modal .close-modal:hover {
+.member-modal .close-modal:hover {
     opacity: .3;
 }
 
-.portfolio-modal .close-modal .lr {
+.member-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
     height: 75px;
@@ -62,7 +66,7 @@ body {
     transform: rotate(45deg);
 }
 
-.portfolio-modal .close-modal .lr .rl {
+.member-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;

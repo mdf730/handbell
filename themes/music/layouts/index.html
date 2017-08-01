@@ -4,6 +4,7 @@
         {{ partial "head.html" . }}
     </head>
     <body id="page-top">
+
         {{ if or .Site.Params.navigation.links.about .Site.Params.navigation.links.members .Site.Params.navigation.links.music .Site.Params.navigation.links.videos .Site.Params.navigation.links.schedule .Site.Params.navigation.links.contact }}
             {{ partial "nav.html" . }}
         {{ end }}

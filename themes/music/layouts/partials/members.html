@@ -12,6 +12,32 @@
                 <div class="col-lg-3 col-sm-3">
                     {{ if .name }}
                         <a href="#member{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal" style="outline:none;">
+                        <img src="img/members/{{ .img }}" class="img-responsive" alt="">
+                        {{ if and .office .name }}
+                            <div class="portfolio-box-caption">
+                                <div class="portfolio-box-caption-content">
+                                    {{ with .office }}
+                                        <div class="project-category text-faded">
+                                            {{ . }}
+                                        </div>
+                                    {{ end }}
+                                    {{ with .name }}
+                                        <div class="project-name">
+                                            {{ . }}
+                                        </div>
+                                    {{ end }}
+                                </div>
+                            </div>
+                        {{ end }}
+                        </a>
+                    {{ else }}
+                        <img src="img/members/{{ .img }}" class="img-responsive" alt="">
+                    {{ end }}
+                </div>
+                <!--
+                <div class="col-lg-3 col-sm-3">
+                    {{ if .name }}
+                        <a href="#member{{ .modalID }}" class="portfolio-box portfolio-link" data-toggle="modal" style="outline:none;">
                             <img src="img/members/{{ .img }}" class="img-responsive" alt="">
                             {{ if and .office .name }}
                                 <div class="portfolio-box-caption">
@@ -34,6 +60,7 @@
                         <img src="img/members/{{ .img }}" class="img-responsive" alt="">
                     {{ end }}
                 </div>
+                -->
             {{ end }}
         </div>
     </div>

@@ -1,5 +1,5 @@
 {{ "<!-- Music Modals -->" | safeHTML }}
-{{ range .Site.Data.music }}
+{{ range .Site.Data.music }} 
 <div class="portfolio-modal modal fade" id="portfolioModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -10,7 +10,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-3 col-lg-offset-3">
                     <div class="modal-body">
                         {{ with .title }}
                             <h2>{{ . }}</h2>
