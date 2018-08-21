@@ -2,7 +2,23 @@ modalID: 4
 title: O Holy Night!
 year: 2011
 img: ohn.jpg
-description: Lorem ipsum dolor sit amet, consectetur adipisicing\
- elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis\
- adipisci architecto obcaecati sit voluptas ipsam, deleniti neque \
- placeat tenetur cum tempore velit.
+description: ...
+songlist:
+      <ol class="song-list">
+      <li class="song">Easter Vigil Basilica Bells</li>
+      <li class="song">Rigaudon</li>
+      <li class="song"><a class="song-link" href="pre2018/CDs/EOJ/03 Variations of Thaxted.mp3">Variations on Thaxted</a></li>
+      <li class="song"><a class="song-link" href="pre2018/CDs/EOJ/04 Laudate Dominum.mp3">Laudate Dominum</a></li>
+      <li class="song">Ave Regina Caelorum</li>
+      <li class="song">Ave Verum Corpus</li>
+      <li class="song"><a class="song-link" href="pre2018/CDs/EOJ/07 Cantique de Jean Racine.mp3">Cantique de Jean Racine</a></li>
+      <li class="song">Peal on Pachelbel's Canon in D</li>
+      <li class="song">Season of New Life</li>
+      <li class="song">The Rejoicing</li>
+      <li class="song">Those Who Love and Those Who Labor</li>
+      <li class="song">Ego Sum Panis Vivus</li>
+      <li class="song"><a class="song-link" href="pre2018/CDs/EOJ/13 Prelude in C Minor.mp3">Prelude in C Minor</a></li>
+      <li class="song"><a class="song-link" href="pre2018/CDs/EOJ/14 Notre Dame Our Mother.mp3">Notre Dame Our Mother</a></li>
+      <li class="song">Triumphant Song of Life</li>
+      <li class="song">Easter Vigil Basilica Bells </li>
+    </ol>

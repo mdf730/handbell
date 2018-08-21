@@ -1,7 +1,8 @@
 {{ "<!-- Member Modals -->" | safeHTML }}
 {{ range .Site.Data.members }}
 <div class="member-modal modal fade" id="member{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialogue" role="document">
+    <div class="vertical-alignment-helper">
+    <div class="modal-dialogue vertical-align-center" role="document">
         <div class="modal-content">
             <div class="container">
                 <div class="modal-body">
@@ -24,10 +25,15 @@
                             {{ end }}
                         </div>
                     </div>
-                    <div class="row" >
+                    <div class="row" style="padding-top: 50px">
                         <div align="center" class="col-sm-12">
-                        {{ if or .major .year .dorm }}
+                        {{ if or .major .year .dorm .choir }}
                                 <ul class="list-inline item-details">
+                                    {{ if .choir }}
+                                        <li>{{ with $.Site.Params.members.modal.choir }}{{.}}:
+                                        {{ end }}
+                                            <strong>{{ .choir }}</strong></li>
+                                    {{ end }}
                                     {{ if .major }}
                                         <li>{{ with $.Site.Params.members.modal.major }}{{.}}: {{ end }}
                                             <strong>{{ .major }}</strong>
@@ -96,13 +102,8 @@
                 </div>
                 -->
             </div>
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
         </div>
+    </div>
     </div>
 </div>
 {{ end }}

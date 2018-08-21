@@ -9,7 +9,7 @@ publishDir = "docs"
 
 	# metadata for search engines
 	name = "Notre Dame Handbell Choir"
-	description = "The Notre Dame Handbell Choir is composed of fifteen undergraduate and graduate students under the direction of Karen Schneider-Kirner."
+	description = "The Notre Dame Handbell Choirs are composed of twenty-two undergraduate and graduate students under the direction of Karen Schneider-Kirner."
 
 	# logo for browser tab
 	favicon = "favicon.ico"
@@ -29,25 +29,28 @@ publishDir = "docs"
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Ring Down The Thunder"
-		subtitle   = "<b>/ `han(d)- bel /</b> | <em>noun.</em> | insert definition here "
+		slogan     = "Ring Down His Thunder"
+		subtitle   = "<b>/ `han(d)- bel /</b> | <em>noun.</em> | An instrument used to express joy through ringing "
 		buttonText = '''<i class="fa fa-envelope" aria-hidden="true"></i> | Subscribe'''
 
 
 	# About section
 	[params.about]
 		headline    = "ABOUT THE CHOIR"
-		description = '''Handbells were first purchased by Campus Ministry at the University of Notre Dame in 1988, with a small set of Schulmerich bells that have since expanded to cover more than five full octaves. Over the years, the use of the bells began simply at liturgy, with peals and free ringing of chords. They currently play not only solo repertoire, but also on the hymns and other service music used for masses. Bells are the oldest of all liturgical instruments, so it's important that we keep the tradition alive of involving bells and bell ringers in the liturgy. 
-<br><br>The primary group of the Notre Dame Handbell Choir is comprised of approximately 15 undergraduate and graduate students. It's only necessary that interested ringers have a solid foundation in music and are fairly coordinated. Bells are heard at our Basilica of the Sacred Heart occasionally at Sunday night Vespers and most often with the Notre Dame Folk Choir for Sunday Basilica liturgies at 11:45 AM. They play for Advent Lessons and Carols, go on tours with the Celebration Choir, play for the annual Pop Farley Mass in Farley Hall Chapel, visit the Center for the Homeless annually, and play solo concerts occasionally at the Basilica of the Sacred Heart. They also record regularly and normally tour with the Celebration Choir. 
-<br><br>Bells call us to prayer, ring at times of great joy, but also comfort us at times of sadness. They have an ethereal quality that cannot be matched by any other type of instrument. We hope that our bell choir will touch the hearts of all who hear us, bringing the faithful closer to God, and imparting a sense of the eternal in those seeking a deeper faith. '''
-		mission 	= "MISSION STATEMENT"
-		statement 	= '''We come together from diverse backgrounds to utilize our talents, to enjoy fellowship with one another, and to build a community centered in our Christian faith. As a choir, we spread joy and peace through our music-making. We are unique, representing a different and wonderful type of music ministry. We develop our musical skills and ability to work with each other as team players. We hope to be a presence in the liturgical community on campus, to create a strong choir so that we can effectively minister to our ND family, and to inspire and enkindle spirituality in all who hear us. '''
+		description = '''In 1988, the University of Notre Dame Campus Ministry departement first purchased a small set of Schulmerich bells.  Thirty years later, the choir has expanded to cover more than five full octaves, providing music ministry to the Basilica of the Sacred Heart, the South Bend community, and parishes around the United States.  
+		<br>
+		The ensemble consists of two choirs: the Coppers and the Bronze.  The Coppers are a new choir, founded in Fall 2017.  The group of 10 is primarily made up of beginner ringers who are expressing their love for music in a new way.  The Coppers rehearse one hour a week and  regularly play at dorm masses.
+		<br><br>
+		Directed by Karen Schneider-Kirner, the Bronze choir consist of 14 experienced ringers who regularly play at the 11:45 Basilica Masses.  In Fall 2017, they were invited to perform at the inauguration of the [Beijing Global Gateway in China](https://international.nd.edu/about/news/notre-dame-handbell-choirs-new-year-reflections-on-the-2017-china-tour/
+).  They are looking forward to future international tours!
+		<br><br>
+		Most recently, both choirs toured Buffalo, NY and Erie, PA in the Spring of 2018.''' 
 		#buttonText  = "Get started!"
 
 
 	# Member section
 	[params.members]
-		title = "2017 MEMBERS"
+		title = "2017 - 2018 MEMBERS"
 
 	[params.members.modal]
 		name = "Name"
@@ -55,6 +58,7 @@ publishDir = "docs"
 		major = "Major"
 		year = "Year"
 		dorm = "Dorm"
+		choir = "Choir"
 
 	# Music section
 	[params.music]
@@ -75,27 +79,31 @@ publishDir = "docs"
 
 	# Schedule section
 	[params.schedule]
-		title = "Fall 2017 Schedule"
+		title = "Spring 2018 Schedule"
 
 	[params.schedule.modal]
 		title = "Title"
 		date = "Date"
 		time = "Time"
 		location = "Location"
+		choir = "Choir"
 
     # Aside section
 	[params.aside]
-		headline = "Monthly choir newsletter!"
+		headline = "Check out our monthly choir newsletter!"
 
 		[params.aside.button]
 			text = "Sign up!"
-			link = "mailto:karen.kirner@nd.edu?subject=Newsletter%20Signup&body=Hi!"
+			link = "https://docs.google.com/forms/d/e/1FAIpQLSdhbNqAnuKJswTTaHIMaBO3CdtbGNIbH6eYhWsb9SUb_6o4hQ/viewform"
 
 	# Contact section
 	[params.contact]
 		headline = "Let's Get In Touch!"
-		description = "Have questions? Want to purchase a CD? Just want to chat?"
-		phone = "123-456-6789" # Karen's phone number
+		description = "Have questions?  Want to purchase a CD?  Just want to chat?"
+		phone = "574-631-9326" # Karen's phone number
 		email = "handbell@nd.edu"
 		# Facebook page link
 
+	# Footer
+	[params.footer]
+		year = 2018

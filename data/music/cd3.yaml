@@ -2,7 +2,21 @@ modalID: 3
 title: O God Beyond All Praising
 year: 2007
 img: ogbap.jpg
-description: Lorem ipsum dolor sit amet, consectetur adipisicing\
- elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis\
- adipisci architecto obcaecati sit voluptas ipsam, deleniti neque \
- placeat tenetur cum tempore velit.
+description: ...
+songlist:
+      <ol class="song-list">
+        <li class="song"><a class="song-link" href="pre2018/CDs/OGBAP1/1-01 O God Beyond.mp3">O God Beyond All Praising</a></li>
+        <li class="song"><a class="song-link" href="pre2018/CDs/OGBAP1/01-02 Praise to the Lord.mp3">Praise to the Lord </a></li>
+        <li class="song"><a class="song-link" href="pre2018/CDs/OGBAP1/01-03 The Lord's Prayer.mp3">The Lord's Prayer </a></li>
+        <li class="song"><a class="song-link" href="pre2018/CDs/OGBAP1/01-04 Welcome Your Children.mp3">Welcome Your Children </a></li>
+        <li class="song"><a class="song-link" href="pre2018/CDs/OGBAP1/01-05 Christ the Encircler.mp3">Christ the Encircler </a></li>
+        <li class="song"><a class="song-link" href="pre2018/CDs/OGBAP1/01-06 Peace.mp3">Peace</a></li>
+        <li class="song"><a class="song-link" href="pre2018/CDs/OGBAP1/01-07 A Walking Prayer.mp3">A Walking Prayer</a> </li>
+        <li class="song"><a class="song-link" href="pre2018/CDs/OGBAP1/01-08 For Help and Prote.mp3">For Help and Protection </a></li>
+        <li class="song"><a class="song-link" href="pre2018/CDs/OGBAP1/01-09 At Close of Day.mp3">At Close of Day</a></li>
+        <li class="song"><a class="song-link" href="pre2018/CDs/OGBAP1/01-10 Each Step of the.mp3">Each Step of the Journey</a></li>
+        <li class="song"><a class="song-link" href="pre2018/CDs/OGBAP1/01-11 Praise My Soul.mp3">Praise My Soul, the King of Heaven</a></li>
+        <li class="song"><a class="song-link" href="pre2018/CDs/OGBAP1/01-12 Siciliana.mp3">Siciliana</a></li>
+        <li class="song"><a class="song-link" href="pre2018/CDs/OGBAP1/01-13 God Be in My Head.mp3">God Be in My Head </a></li>
+        <li class="song"><a class="song-link" href="pre2018/CDs/OGBAP1/01-14 Towers.mp3">Towers</a></li>
+      </ol>

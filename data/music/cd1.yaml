@@ -2,7 +2,29 @@ modalID: 1
 title: Ring Out Your Joy
 year: 1999
 img: royj.jpg
-description: Lorem ipsum dolor sit amet, consectetur adipisicing\
- elit. Vel enim aliquid dicta ullam in repellendus amet perspiciatis\
- adipisci architecto obcaecati sit voluptas ipsam, deleniti neque \
- placeat tenetur cum tempore velit.
+description: ...
+songlist:
+    <div class="song-list-container song-album-section">
+      <ol class="song-list">
+        <li class="song"><a class="song-link" href="pre2018/CDs/ROYJ/01 Ring Out Your Joy.mp3">Ring Out Your Joy</a></li>
+        <li class="song">Peal on Westminster Chimes </li>
+        <li class="song"><a class="song-link" href="pre2018/CDs/ROYJ/03 Amazing Grace.mp3">Amazing Grace (handbells)</a></li>
+        <li class="song">Pavane</li>
+        <li class="song">Love Divine, All Loves Excelling </li>
+        <li class="song"><a class="song-link" href="pre2018/CDs/ROYJ/06 Carillon Celebration.mp3">Carillon Celebration</a></li>
+        <li class="song">Prelude No. 1 from Well Tempered Clavier</li>
+        <li class="song">Rhosymedre</li>
+        <li class="song">Christ Be Near at Either Hand (handbells)</li>
+        <li class="song">The King of Love My Shepherd Is</li>
+        <li class="song">Lord of All Hopefulness</li>
+        <li class="song">Londonderry Air</li>
+        <li class="song">All Praise to St. Patrick</li>
+        <li class="song"><a class="song-link" href="pre2018/CDs/ROYJ/14 Siyahamba.mp3">Siyahamba</a></li>
+        <li class="song">Alleluia Festival Peal</li>
+        <li class="song"><a class="song-link" href="pre2018/CDs/ROYJ/16 Now The Green Blade.mp3">Now the Green Blade Riseth</a></li>
+        <li class="song">Easter Jubilation</li>
+        <li class="song">Hallelujah Chorus from Messiah</li>
+        <li class="song">Vespers Peal</li>
+        <li class="song">Day is Done </li>
+      </ol>
+    </div>

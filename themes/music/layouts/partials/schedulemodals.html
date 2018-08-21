@@ -1,6 +1,8 @@
 {{ "<!-- Schedule Modals -->" | safeHTML }}
 {{ range .Site.Data.schedule }}
-<div class="portfolio-modal modal fade" id="event{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="member-modal modal fade" id="event{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="vertical-alignment-helper">
+    <div class="modal-dialogue vertical-align-center" role="document">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
@@ -52,6 +54,9 @@
                 </div>
             </div>
         </div>
+    </div>
+    </div>
+    </div>
     </div>
 </div>
 {{ end }}

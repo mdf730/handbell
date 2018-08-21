@@ -42,12 +42,15 @@ a:focus {
 }
 
 #about a {
-    color: rgba(52, 52, 52, .7);
+    color: white;
+    border-bottom: 3px solid #fff;
 }
 
 #about a:hover,
 #about a:focus {
-    color: rgb(52, 52, 52);
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
 }
 
 h1,
@@ -600,4 +603,36 @@ p.stroke {
     1px -1px 0 rgb(12,35,64),
     -1px 1px 0 rgb(12,35,64),
     1px 1px 0 rgb(12,35,64);  
+}
+
+
+.song-list-container {
+    max-width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+ol.song-list {
+    padding-left: 0;
+    font-family: gentium basic;
+    font-size: 1em;
+    list-style-type: decimal;
+}
+
+
+.song {
+    display: block;
+    text-align: left;
+    color: #004DA3;
+    text-decoration: none;
+}
+
+a.song-link {
+    display: block;
+    text-align: left;
+    color: #004DA3;
+    text-decoration: none;
 }
